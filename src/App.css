@@ -1,0 +1,28 @@
+*{
+  scroll-behavior: smooth;
+}
+.app{
+  min-height: 65vh;
+  background-color: #39445a;
+  color: white;
+  padding-bottom: 70px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+}
+@media(max-width:700px){
+  app{
+      padding-top: 70px;
+  }
+}
+.col-md-3{
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  font-family: "Montserrat",sans-serif;
+  font-size: 2vw;
+  padding: 4px;
+  border-radius: 50px;
+  color:white;
+} 
